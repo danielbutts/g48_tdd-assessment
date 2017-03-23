@@ -3,10 +3,9 @@ const assert = chai.assert
 const main = require('../src/main')
 
 // Write your tests below
+// make sure your descriptions are not vauge
 // Access your function with main.myFunction()
-// Test that the inputs are correct
-// Test that the outputs are correct
-//
+
 
 
 // With no inputs, myFunction returns 0
@@ -15,13 +14,20 @@ const main = require('../src/main')
 // With a single input, myFunction returns just that input
 // myFunction(a) --> a
 
-// With two inputs, myFunction returns those inputs added together
+// With two number inputs, myFunction returns those inputs added together
 // myFunction(1,2) --> 3
+
+// With tow string inputs, myFunction returns the strings concatenated
 // myFunction('Pika', 'chu') --> 'Pikachu'
 
-// With any number of inputs, myFunction returns the sum(if numbers)
-// or the concatination(if strings)
+// Given any number of string inputs, returns all inputs concatenated
 // myFunction('This ', 'is ', 'a ', 'string!') --> 'This is a string!'
 // myFunction('I ', 'like ', 'turtles!') --> 'I like turtles!'
+
+
+// Given any number of number inputs, returns all inputs summed.
 // myFunction(1,2,3,4,5,6,7,100) --> 128
 // myFunction(1,2,3) --> 6
+
+//--------------Stretch------------------
+//Write a function that creates a random array to pass your function.

@@ -1,13 +1,7 @@
-
-
-function myFunction () {
-//your code here
-
-
+function myFunction() {
+//your code here!
 }
 
-
-
-
-
-module.exports = { myFunction }
+module.exports = {
+  myFunction
+}
