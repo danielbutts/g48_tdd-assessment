@@ -1,7 +1,14 @@
-function square (arg1) {
-  if (typeof arg1 !== 'number') throw new Error('arg1 is not a number')
 
-  return arg1 * arg1
+
+function myFunction () {
+//your code here
+//make sure your function takes at least two arguments.
 }
 
-module.exports = { square }
+
+//write a function called over9000 that takes in any number of parameters
+//and returns the value of all of the parameters added together
+
+
+
+module.exports = { myFunction }
