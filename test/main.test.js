@@ -17,7 +17,7 @@ const main = require('../src/main')
 // With two number inputs, myFunction returns those inputs added together
 // myFunction(1,2) --> 3
 
-// With tow string inputs, myFunction returns the strings concatenated
+// With two string inputs, myFunction returns the strings concatenated
 // myFunction('Pika', 'chu') --> 'Pikachu'
 
 // Given any number of string inputs, returns all inputs concatenated
@@ -30,4 +30,5 @@ const main = require('../src/main')
 // myFunction(1,2,3) --> 6
 
 //--------------Stretch------------------
-//Write a function that creates a random array to pass your function.
+// Write a function that creates a random array to pass to your function.
+// Then write a test that uses the random array as the argument for myFunction
