@@ -7,9 +7,7 @@
 
 ## Instructions
 
-1. Write a test in main.test.js then make the function in main.js pass the test
-1. Write the next test and make the function pass that test, plus all previous tests.
-1. Repeat until all tests are written and passing.
+1. Write all of your tests in main.test.js then make the function in main.js pass the tests. WRITE ALL THE TESTS FIRST!
 
 Remember "Red, Green, Refactor"
 Use the [Mocha Chia Assertion library](http://chaijs.com/api/assert/) as a reference for building out your tests.
