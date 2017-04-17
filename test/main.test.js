@@ -30,5 +30,5 @@ const main = require('../src/main')
 // myFunction(1,2,3) --> 6
 
 //--------------Stretch------------------
-// Write a function that generates a random array to pass to your function.
+// Write a function that generates a randomish length array of randomish numbers to pass to your function.
 // Then write a test that uses that random array as the argument for myFunction
